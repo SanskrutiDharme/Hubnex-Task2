@@ -1,0 +1,183 @@
+.body,
+.h2 {
+  position: relative;
+}
+.h2 {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  letter-spacing: -0.06em;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.body {
+  width: 447px;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  font-family: Inter;
+  color: #bbb;
+  display: inline-block;
+  max-width: 100%;
+}
+.formfaq2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 100%;
+}
+.nameemailcom {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.form1 {
+  flex: 1;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 11.5px 12px;
+  box-sizing: border-box;
+  min-width: 132px;
+}
+.getForFree {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 83px;
+}
+.buttons,
+.form,
+.formfaq1 {
+  display: flex;
+  align-items: center;
+}
+.buttons {
+  border-radius: 10px;
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 15px;
+  white-space: nowrap;
+  color: #000;
+}
+.form,
+.formfaq1 {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.form {
+  width: 409px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: left;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+}
+.formfaq1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 40px;
+}
+.emojistar1Icon,
+.helix21Icon {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: contain;
+  z-index: 1;
+}
+.emojistar1Icon {
+  width: 263px;
+  height: 263px;
+  top: 10px;
+  left: 49px;
+}
+.helix21Icon {
+  width: 268.5px;
+  height: 268.5px;
+  right: 46.3px;
+  bottom: 43.3px;
+}
+.formfaq,
+.formfaqWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.formfaq {
+  flex: 1;
+  flex-direction: column;
+  padding: 132px 330px;
+  position: relative;
+  gap: 10px;
+}
+.formfaqWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 15px;
+  text-align: center;
+  font-size: 54px;
+  color: #fff;
+  font-family: "DM Sans";
+}
+@media screen and (max-width: 1050px) {
+  .h2 {
+    font-size: 43px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 751px) {
+  .formfaq1 {
+    gap: 20px;
+  }
+  .formfaq {
+    padding: 86px 165px;
+    box-sizing: border-box;
+  }
+  .emojistar1Icon {
+    width: 180px;
+    height: 183px;
+    top: 10px;
+    left: 2px;
+  }
+  .helix21Icon {
+    width: 182px;
+    height: 188px;
+    right: 1px;
+    bottom: 30px;
+  }
+  
+
+}
+@media screen and (max-width: 380px) {
+  .h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .formfaq {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .emojistar1Icon {
+    display: none;
+  }
+  .helix21Icon {
+    display: none;
+  }
+ 
+}

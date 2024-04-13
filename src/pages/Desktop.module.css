@@ -1,0 +1,83 @@
+.thisPageIs {
+  flex: 1;
+  display: inline-block;
+  min-width: 126px;
+}
+.icons,
+.thisPageIs,
+.viewTheComplete {
+  position: relative;
+}
+.icons {
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heroContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3px;
+}
+.thisPageIsIncludedInAFreParent {
+  width: 486px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4.5px;
+  max-width: 100%;
+}
+.bar,
+.desktop,
+.thisPageIsIncludedInAFreParent {
+  display: flex;
+  box-sizing: border-box;
+}
+.bar {
+  align-self: stretch;
+  background: linear-gradient(
+    90deg,
+    #feecff,
+    #fecaff 11.71%,
+    #feb5ff 26.8%,
+    #ffdbe7 40.18%,
+    #fff4d6 49.22%,
+    #f3fcd7 58.71%,
+    #d2f5ee 71.29%,
+    #c3efff 84.44%,
+    #fbefff
+  );
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 20px;
+  max-width: 100%;
+}
+.desktop {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 15px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 14px;
+  color: #000;
+  font-family: "DM Sans";
+}
+
+@media screen and (max-width: 380px) {
+  .thisPageIs {
+    flex: 1;
+    display: inline-block;
+    min-width: 126px;
+    display: none;
+  }
+}

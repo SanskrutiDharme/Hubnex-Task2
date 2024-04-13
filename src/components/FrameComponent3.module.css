@@ -1,0 +1,333 @@
+.heroChild {
+  width: 1200px;
+  height: 730px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #000,
+    #200d42 34.22%,
+    #4f21a1 64.9%,
+    #a46edb 81.78%
+  );
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.coreSafariBigSurToolbar {
+  width: 180vw;
+  height: 1014px;
+  position: absolute;
+  margin: 0 !important;
+  right: -630px;
+  bottom: -839px;
+  border-radius: 50%;
+  background: radial-gradient(50% 50%at 50% 50%, #000 82.2%, #9560eb);
+  border: 0 solid #b48cde;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.readMore,
+.version20Is {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 11px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 117px;
+}
+.readMore {
+  line-height: 31px;
+  min-width: 66px;
+  cursor: pointer;
+}
+.icons {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.readMoreParent {
+  gap: 4px;
+  color: #fff;
+}
+.featureCardContainer,
+.readMoreParent,
+.tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.tag {
+  border-radius: 10px;
+  border: 1px solid #222;
+  overflow: hidden;
+  padding: 0 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.atATime,
+.h1,
+.oneTask {
+  margin: 0;
+}
+.h1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 165px;
+  letter-spacing: -0.07em;
+  line-height: 125px;
+  font-weight: 700;
+  font-family: "DM Sans";
+  text-align: center;
+}
+.body,
+.getForFree {
+  position: relative;
+  display: inline-block;
+}
+.body {
+  margin: 0;
+  width: 457px;
+  font-size: 22px;
+  letter-spacing: -0.04em;
+  line-height: 31px;
+  font-weight: 400;
+  font-family: inherit;
+  text-align: center;
+  max-width: 100%;
+}
+.getForFree {
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  min-width: 85px;
+  cursor: pointer;
+}
+.buttons {
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  white-space: nowrap;
+  font-size: 16px;
+  color: #000;
+}
+.cursor1Icon {
+  z-index: 3;
+  object-fit: contain;
+  left: 0;
+  top: 0;
+  transform: scale(1.14);
+}
+.cursor1Icon,
+.cursor2Icon,
+.wrapperCursor1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.wrapperCursor1 {
+  top: 0;
+  left: 1px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cursor2Icon {
+  top: 3px;
+  left: 0;
+  object-fit: cover;
+  z-index: 4;
+  
+}
+.getFreeButton {
+  width: 201px;
+  height: 203px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 129.5px;
+  left: -143px;
+}
+.message2Icon {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.14);
+}
+.wrapperMessage2 {
+  top: 6px;
+  left: 0;
+  height: 200px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.helixShape,
+.message1Icon,
+.wrapperMessage2 {
+  width: 200px;
+  position: absolute;
+}
+.message1Icon {
+  top: 0;
+  left: 0;
+  height: 200px;
+  object-fit: cover;
+  z-index: 4;
+}
+.helixShape {
+  height: 206px;
+  margin: 0 !important;
+  top: 109.5px;
+  right: -162px;
+}
+.heroContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 32px;
+  max-width: 100%;
+  z-index: 2;
+}
+.hero,
+.heroWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.hero {
+  flex: 1;
+  background: linear-gradient(
+    180deg,
+    #000,
+    #200d42 34.22%,
+    #4f21a1 64.9%,
+    #a46edb 81.78%
+  );
+  overflow: hidden;
+  flex-direction: column;
+  padding: 64.5px 279px 147px;
+  position: relative;
+  min-height: 731px;
+}
+.heroWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 20px;
+  text-align: left;
+  font-size: 13px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 880px) {
+  .h1 {
+    font-size: 66px;
+    line-height: 75px;
+  }
+  .coreSafariBigSurToolbar {
+    width: 238vw;
+    height: 1014px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: -839px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50%at 50% 50%, #000 82.2%, #9560eb);
+    border: 0 solid #b48cde;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 751px) {
+  .heroContent {
+    gap: 16px;
+  }
+  .hero {
+    padding: 42px 139px 96px;
+    box-sizing: border-box;
+  }
+  .helixShape {
+    margin: 0 !important;
+    top: 109.5px;
+    right: -162px;
+  }
+  .getFreeButton {
+    width: 180px;
+    height: 183px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: 200px;
+    left: -130px;
+    
+  }
+  .h1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 120px;
+    letter-spacing: -0.07em;
+    line-height: 125px;
+    font-weight: 700;
+    font-family: "DM Sans";
+    text-align: center;
+  }
+}
+@media screen and (max-width: 380px) {
+  .heroWrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: 13px;
+    color: #fff;
+    font-family: Inter;
+    height: 50%;
+  }
+  .coreSafariBigSurToolbar {
+    width:435vw;
+    height: 1014px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: -630px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50%at 50% 50%, #000 82.2%, #9560eb);
+    border: 0 solid #b48cde;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+
+  .h1 {
+    font-size: 41px;
+    line-height: 50px;
+  }
+  .body {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .helixShape {
+    display: none;
+  }
+  .getFreeButton {
+    display: none;
+    
+  }
+  
+ 
+}

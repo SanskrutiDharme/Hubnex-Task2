@@ -1,0 +1,105 @@
+.body,
+.h2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.06em;
+  line-height: 62px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.body {
+  font-size: 22px;
+  letter-spacing: -0.04em;
+  line-height: 31px;
+  font-weight: 400;
+  font-family: Inter;
+}
+.apex,
+.pulse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.apex {
+  align-self: stretch;
+  gap: 20px;
+}
+.pulse {
+  width: 540px;
+  max-width: 100%;
+}
+.like {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: 18px;
+}
+.celestia,
+.celestiaWrapper,
+.like {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.celestia {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 66px;
+}
+.celestiaWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 44px 145px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 54px;
+  color: #fff;
+  font-family: "DM Sans";
+}
+@media screen and (max-width: 1200px) {
+  .celestia {
+    gap: 33px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .h2 {
+    font-size: 43px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 751px) {
+  .celestia {
+    gap: 16px;
+  }
+  .celestiaWrapper {
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 94px;
+    box-sizing: border-box;
+  }
+  .like {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 18px;
+   
+    
+  }
+}
+@media screen and (max-width: 450px) {
+  .h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .body {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
